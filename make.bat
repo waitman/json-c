@@ -15,5 +15,5 @@ dumpbin /dependents json-c.dll
 
 copy tests\test_set_serializer.c .
 cl /nologo /Fo\ -c -Ox -Os -W3 -Zp -D _CRT_SECURE_NO_WARNINGS test_set_serializer.c
-cl /nologo -OUT:test_set_serializer test_set_serializer.c obj/*.obj
+cl /nologo -OUT:test_set_serializer.exe test_set_serializer.c obj/*.obj
 test_set_serializer.exe
