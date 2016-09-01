@@ -1,3 +1,4 @@
+mkdir obj
 copy config.h.win32 config.h
 copy json_config.h.win32 json_config.h
 cl /nologo /Foobj\ -c -Ox -Os -W3 -Zp -D _CRT_SECURE_NO_WARNINGS arraylist.c
